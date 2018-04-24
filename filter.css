@@ -1,0 +1,107 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/* Start your base/mobile styles here */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+
+}
+
+p {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align:left;
+}
+h1{
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align:left;
+}
+
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.caption{
+  text-align: justify;
+  font-size: 10px;
+  font-family:Arial;
+  font-color:#4d4d33;
+  padding:none;
+  line-height: none;
+}
+
+
+.item {
+    display: none;
+    width: 50%;
+    padding: 5px;
+    float: left;
+    min-height: 185px;
+    text-align: left;
+
+}
+
+.item.active {
+    display: block;
+    width:50%;
+}
+
+img{
+    margin-right:5%;
+    margin-left: 5%;
+    align-content:left;
+}
+
+select {
+    display: block;
+    width: 100%;
+}
+
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+    .item {
+        width: 33%;
+        min-height: 310px;
+    }
+    select {
+        width: 33%;
+    }
+    p, h1, h3, .container, img{
+    margin-right: 25%;
+    margin-left: 25%;
+}
+}
+
+@media(min-width: 729px) {
+p, h1, h3, .container{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.container{
+
+   margin-right: 15%;
+    margin-left: 15%; 
+}
+
+img{
+    width:70%;
+    margin-right: 15%;
+    margin-left: 15%;
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+}
+*/
